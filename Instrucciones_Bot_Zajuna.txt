@@ -1,0 +1,40 @@
+
+========================================================================
+   GUÍA DE USO Y CONFIGURACIÓN - EXTRACTOR DE EVIDENCIAS ZAJUNA
+========================================================================
+Desarrollado para el programa ADSO - SENA
+
+1. ¿QUÉ ES ESTE PROGRAMA?
+Este bot automatiza el ingreso a la plataforma Zajuna, navega hasta tu 
+curso de ADSO (ID: 109418) y extrae las fechas de vencimiento de las 
+evidencias del calendario, guardándolas en un archivo Excel.
+
+2. REQUISITOS PREVIOS
+Para que el programa funcione correctamente en cualquier PC:
+- Google Chrome instalado y actualizado.
+- Conexión a Internet estable.
+
+3. INSTRUCCIONES DE USO
+   a. Ejecuta el archivo 'Calendar_Zajuna.exe'.
+   b. Se abrirá una ventana titulada 'Extracción de eventos - Zajuna' 
+      que te indicará el estado del proceso.
+   c. El navegador Chrome se abrirá automáticamente en pantalla completa.
+   d. Tendrás 180 segundos (3 minutos) para ingresar manualmente tus 
+      credenciales de acceso (Documento y Contraseña) en Zajuna.
+   e. Una vez inicies sesión, NO TOQUES EL NAVEGADOR. El bot detectará 
+      tu ingreso, entrará al curso y al calendario por sí solo.
+   f. Al finalizar la extracción, aparecerá una ventana para que elijas 
+      DÓNDE quieres guardar el archivo Excel (mis_tareas_zajuna.xlsx) y 
+      el csv para exportar el calendario (mis_tareas_zajuna_para_calendar.csv).
+
+4. SOLUCIÓN DE PROBLEMAS (ANTIVIRUS)
+Dado que es un software personalizado y no firmado, Windows o tu 
+antivirus podrían marcarlo como sospechoso.
+- Si aparece 'Windows protegió su PC': Haz clic en 'Más información' 
+  y luego en 'Ejecutar de todas formas'.
+- Si el antivirus lo bloquea: Añade el archivo a la lista de 
+  'Excepciones' o 'Exclusiones' de tu antivirus.
+- Si el bot falla al extraer: Asegúrate de que el calendario de Zajuna 
+  esté en vista de 'Mes' y que los eventos sean visibles.
+
+========================================================================
