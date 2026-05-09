@@ -2,3 +2,7 @@ __pycache__/
 build/ 
 dist/ 
 *.spec 
+build/
+dist/
+Calendar_Zajuna.spec
+Exportar_calendario_Zajuna.zip
