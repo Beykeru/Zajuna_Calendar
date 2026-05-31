@@ -1,8 +1,31 @@
-# Zajuna_Calendar 🗓️
+# # TaskFlow Calendar
 
-Automatización en Python para extraer evidencias de la plataforma **Zajuna** y generar archivos compatibles con **Google Calendar**.
+A web-based calendar and task management application designed to help users organize events, deadlines, and daily activities.
 
-## Características
-- Extrae evidencias automáticamente usando Selenium.
-- Genera un archivo Excel para control personal.
-- Genera un archivo CSV configurado para el año 2026 listo para importar a Calendar.
+## Features
+
+- Create events
+- Edit events
+- Delete events
+- Monthly calendar view
+- Task management
+- Event filtering
+
+## Technologies
+
+- Python
+- Flask
+- SQLite
+- HTML
+- CSS
+- JavaScript
+
+## Screenshots
+
+[Insert images]
+
+## Future Improvements
+
+- Email reminders
+- Google Calendar integration
+- Analytics dashboard
